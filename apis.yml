@@ -1,26 +1,75 @@
 aid: waymark
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waymark.png
 name: Waymark
-description: Waymark is a company surfaced as a portfolio company of a16z, lux-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Waymark is a healthcare technology and services company that scales value-based,
+  community-based care for people enrolled in Medicaid. In partnership with health
+  plans and primary care providers, Waymark trains and employs local care teams —
+  community health workers, care coordinators, licensed therapists, and pharmacists —
+  and equips them with predictive technology that identifies high-risk patients and
+  coordinates interventions addressing the social determinants of health such as
+  housing, food security, transportation, medication management, and behavioral
+  health. The model is designed to reduce avoidable hospitalizations and emergency
+  room visits, and Waymark operates community-based care across Ohio, Virginia, and
+  Washington. The company is backed by Andreessen Horowitz (a16z), NEA, Lux Capital,
+  and CVS Health Ventures. Waymark publishes no public developer API or documentation
+  surface; this profile captures the company identity and its public web presence.
 url: https://raw.githubusercontent.com/api-evangelist/waymark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 - lux-capital
+- nea
+- cvs-health-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Healthcare
+- Medicaid
+- Community Health
+- Value-Based Care
+- Care Coordination
+- Population Health
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://www.waymarkcare.com
+- type: Blog
+  url: https://www.waymarkcare.com/blog
+- type: GitHubOrganization
+  url: https://github.com/waymark-care
+- type: PrivacyPolicy
+  url: https://www.waymarkcare.com/privacy-policy
+- type: TermsOfService
+  url: https://www.waymarkcare.com/terms
+- type: Support
+  url: mailto:questions@waymarkcare.com
+- type: DomainSecurity
+  url: security/waymark-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
